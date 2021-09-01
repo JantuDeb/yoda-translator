@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap");
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #eff6ff;
+}
+body {
+  margin: 0;
+  font-family: "Arbutus Slab", serif;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  color: white;
+}
+.navigation > h1 {
+  text-align: center;
+}
+
+.image-header {
+  display: block;
+  margin: auto;
+}
+
+.section {
+  padding: 1rem;
+  max-width: 80%;
+  margin: auto;
+  color: #333333;
+}
+
+#text-input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 10px;
+  outline-style: none;
+  border: 1px solid var(--primary-color);
+  font-size: large;
+}
+
+#btn-translate {
+  padding: 0.8rem 1.5rem;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: large;
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+#output-text {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  min-height: 20vh;
+  max-height: 30vh;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+}
+
+footer {
+  padding: 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+}
+footer > h3 {
+  text-align: center;
+}
+footer > p {
+  text-align: center;
+}
